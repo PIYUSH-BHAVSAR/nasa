@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_sdg_page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <title>Navbar Example</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#index.html" class="logo">SDGLessons</a>
+            <ul class="nav-links">
+                <li><strong><a href="#">Home</a></strong></li>
+                <li><strong><a href="#">About SDG</a></strong></li>
+                <li><strong><a href="#">Educational Resources</a></strong></li>
+                <li><strong><a href="#">Interactive Features</a></strong></li>
+                <li><strong><a href="#">Contact Us</a></strong></li>
+            </ul>
+             
+             <div class="menu-toggle" id="mobile-menu">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <i class="fa-solid fa-outdent"></i>
+        </nav> 
+    </header>
+<section class="hero_sec">
+<H2>SDG:01 <br>End Poverty In All It's Form From Everywhere.</H2>
+
+</section>
+
+<section class="we-section">
+    <div class="we-content">
+      <h2>SDG:01:POVERTY</h2>
+      <p> SDG 1 is the complete eradication of extreme poverty for all people everywhere as currently measured as people living on less than $1.90 a day and reduce in numbers all people living in poverty in its dimensions.</p>
+    </div>
+    <div class="we-image">
+      <img src="assets/goal1.jpeg" alt="Our Team" />
+    </div>
+  </section>
+
+  <section class="graphplot">
+    <div class="container">
+      <div class="card">
+          <h3>The proportion of the population living below the extreme poverty line reduced from 48.0% in 1993 to 12.9% in 2021</h3>
+          <canvas id="chart1" width="400" height="200"></canvas>
+      </div>
+      <div class="card">
+          <h3>The proportion of the population living in multidimensional poverty declined from 24.9% in 2015 to 15.0% in 2019.</h3>
+          <canvas id="chart2" width="400" height="200"></canvas>
+      </div>
+      <div class="card">
+          <h3>The average proportion of deprivations for people considered poor (according to the multi-dimensional poverty index) declined from 47.1% in 2015 to 44.4% in 2019.</h3>
+          <canvas id="chart3" width="400" height="200"></canvas>
+      </div>
+  </div>
+
+  </section>
+
+  <h2>For More Information.</h2>
+    <a href="https://www.youtube.com/watch?v=T7qiM0quEf4" >click here <i class="fa-brands fa-youtube" ></i></a>
+  
+    <script src="scriptsdg.js"></script>
+</body>
+</html>
