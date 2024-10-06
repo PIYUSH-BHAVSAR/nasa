@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #12ac8e;
+  --primary-color-dark: #0d846c;
+  --primary-color-light: #080808;
+  --secondary-color: #fb923c;
+  --text-dark: #333333;
+  --text-light: #767268;
+  --white: #ffffff;
+  --max-width: 1200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section__container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 5rem 1rem;
+}
+
+.section__header {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+#sec-head-text{
+align-items: flex-start;
+
+}
+
+.btn {
+  padding: 0.75rem 2rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  white-space: nowrap;
+  color: var(--white);
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #fffefe;
+  position: relative; 
+  
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  margin-top: 10px;
+  position: relative;
+ 
+}
+
+.logo {
+  color: rgb(255, 68, 0);
+  text-decoration: none;
+  font-size: 24px;
+  align-items: start;
+
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: end;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.nav-links a:hover {
+  background-color: #dcd6d6;
+  border-radius: 4px;
+  
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  height: 3px;
+  width: 25px;
+  background-color: white;
+  margin: 3px 0;
+}
+
+.close {
+  width: 25px; /* Adjust as needed */
+  height: 25px; /* Adjust as needed */
+  display: none; /* Initially hidden */
+}
+/*intro page */
+.hero_sec{
+ width: 100%;
+ height: 400px;
+ background-color: #09f3d8;
+ align-content: center;
+ position: relative;
+ 
+
+}
+.hero_sec h2{
+
+  font-size: 50px;
+  font-family: poppins;
+  margin-left: 5%;
+  
+}
+.we-section {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+ 
+  position: relative;
+}
+
+.we-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.we-content h2 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.we-content p {
+  font-size: 1.8em;
+  line-height: 1.5;
+}
+
+.we-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+/* styles.css */
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+
+
+.graphplot {
+  display: flex;
+  position: relative;
+  align-items: baseline;
+
+}
+.container {
+  position: absolute;
+ display: flex;
+ flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+
+.card {
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width:800px ;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+canvas {
+  background: #f9f9f9;
+  border-radius: 5px;
+} 
+
+
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  
+  .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      background-color: #333;
+      top: 60px; /* Height of navbar */
+      right: 0;
+      width: 100%;
+      border-top: 1px solid #555;
+  }
+
+  .nav-links.active {
+      display: flex;
+  }
+
+  .nav-links li {
+      margin: 10px 0;
+      text-align: center;
+  }
+
+  .menu-toggle {
+      display: flex;
+  }
+
+  .close.active {
+      display: block; /* Show close icon when menu is active */
+  }
+}
+  /*intro page*/
+
